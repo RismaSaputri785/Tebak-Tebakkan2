@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body{
+    background-image: url(bg4.png);
+    min-height: 100rem;
+    background-repeat: repeat;
+    
+}
+
+
+.bg{
+    margin: 0.3rem;
+    margin-top: 0;
+}
+
+
+.bg .pembuka {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/* M e d i a   Q u e r i s */
+
+@media (max-width: 650px) {
+    .bg .pal-atas {
+        justify-content: space-between;
+        display: flex;       
+        width: 100%;
+        
+    }
+    
+    .bg .pal-atas img{
+        height: 4.5rem;
+        width: 10rem;
+    }
+
+
+    /* P E M B U K A */
+    .bg .pembuka h1{
+        position: relative;
+        margin-top: -0.5rem;
+        margin-bottom: 0.8rem;
+        font-size: 2rem;
+        text-align: center;
+        font-variant: small-caps;
+
+    }
+
+    .bg .pembuka p{
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .bg .pembuka h3{
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* F O T O   D E P A N */
+
+    .bg .pembuka .foto-depan {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .bg .pembuka .foto-depan .balon {
+        width: 6.5rem;
+        height: 12rem;
+    }
+
+    .bg .pembuka .foto-depan .foto-pembuka {
+        width: 25vh;
+        height: 40vh;
+        position: relative;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+
+    }
+
+    .bg .pembuka h6 {
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    } 
+
+    .bg .pembuka a i,
+    .bg #pengenalan a i,
+    .bg #ucapan a i,
+    .bg #lomba a i,
+    .bg #bertiga a i{
+        margin-left: 50%;
+        font-size: 2rem;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+
+    /* p e n g e n a l a n */
+    .bg #pengenalan {
+        margin-top: 1.5rem;
+        padding-top: 0.8rem;
+        height: 100vh;
+    }
+
+    .bg #pengenalan h1{
+        text-align: center;
+    }
+
+    .bg #pengenalan p{
+        padding-bottom: 1.2rem;
+        padding: 0.5rem 2rem;
+        text-align: justify;
+    }
+    .bg #pengenalan .Foto-kenalan .poto {
+        width: 20vh;
+        height: 33vh;
+        left: 35%;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .bg #pengenalan .Foto-kenalan{
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg #pengenalan .Foto-kenalan .hiasan,
+    .bg #ucapan .Foto-ucapan .hiasan{
+        margin-top: 1.8rem;
+        height: 7rem;
+        width: 6rem;
+    }
+
+    
+
+    /* U C A P A N */
+    .bg #ucapan {
+        margin-top: 2rem;
+        padding-top: 0.8rem;
+        height: 100vh;
+    }
+
+    .bg #ucapan h1 {
+        text-align: center;
+        padding-bottom: 1.8rem;
+    }
+
+    .bg #ucapan .poto {
+        width: 20vh;
+        height: 30vh;
+        border-radius: 10px;
+    }
+
+    .bg #ucapan .p1 {
+        padding: 1rem 1rem;
+        text-align: justify;
+    }
+
+    .bg #ucapan .p2 {
+        padding: 1rem 1rem;
+        text-align: justify;
+
+    }
+
+
+    /* L O M B A */
+    .bg #lomba {
+        margin-top: 2rem;
+        height: 100vh;
+    }
+
+    .bg #lomba .paskib1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bg #lomba .paskib1 .poto {
+        height: 36vh;
+        width: 20vh;
+        border-radius: 10px;
+        margin: 0rem 1rem;
+    }
+
+    .bg #lomba .paskib1 .hias-lomba1{
+        height: 18vh;
+        width: 20vh;
+        margin-top: 3rem;
+    }
+
+    .bg #lomba .paskib1 .hias-lomba2{
+        height: 12vh;
+        width: 12vh;
+        margin-top: 5rem;
+    }
+
+    .bg #lomba h1{
+        text-align: center;
+        font-size: 1.9rem;
+        padding: 1rem;
+    }
+
+    .bg #lomba h2{
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .bg #lomba .api {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg #lomba .api h2{
+        padding-right: 0rem;
+
+    }
+
+
+    .bg #lomba .api .api1{
+        position: relative;
+        padding:  0rem;
+        margin-left: -0.7rem;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .bg #lomba .api .api2{
+        position: relative;
+        padding:  0rem;
+        margin-left: -1rem;
+        height: 3rem;
+        width: 3rem;
+
+    }
+
+
+    /* b e r t i g a */
+
+    .bg #bertiga {
+        padding: 2rem;
+        margin: 1.5rem;
+        height: 100vh;
+    }
+
+    .bg #bertiga h1{
+        text-align: center;
+        margin-bottom: 1.8rem;
+    }
+
+    .bg #bertiga img{
+        margin-left: 1.5rem;
+        height: 20rem;
+        width: 15rem;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+
+
+
+    /* p e n u t u p */
+    
+    .bg #penutup{ 
+        height: 70vh;
+        margin-top: 8rem;
+    }
+
+    .bg #penutup h1{
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .bg #penutup img {
+        margin-left: 35%;
+        margin-bottom: 0.8rem;
+        display: flex;
+        height: 20vh;
+        width: 20vh;
+    }
+
+    .bg #penutup p {
+        margin-top: 8rem;
+        text-align: center;
+    }
+
+
+
+}

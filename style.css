@@ -1,0 +1,144 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body{
+    background-image: url(bg.jpg);
+    text-decoration: none;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.utama{
+    width: 100%;
+}
+.utama .judul{
+    justify-content: space-between;
+    margin-top: 15rem;
+    display: flex;
+
+}
+
+.utama .judul img{
+    width: 15vh;
+    height: 38vh;
+    position: relative;
+    z-index: 2;
+}
+.utama .judul h1 {
+    font-size: 3.6rem;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 10rem;
+    
+}
+
+.utama .tombol{
+    width: 100%;
+}
+
+.utama .tombol a{
+    margin-left: 38%;
+    font-size: 3rem;
+    background-color: rgb(255, 255, 84);
+    border: 3px solid white;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.isi .soal {
+    padding: 1rem;
+    height: 15rem;
+    background-color: rgb(239, 255, 150);
+    margin: 10rem 5rem;
+    border-radius: 3%;
+}
+
+.isi .soal h1{
+    font-size: 3rem;
+}
+.isi .soal p{
+    font-size: 2.7rem;
+}
+
+.isi {
+    flex-wrap: wrap;
+}
+
+.isi .jawaban{
+    margin-bottom: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.isi .jawaban a{
+    background-color: rgb(237, 255, 234);
+    height: 4.5rem;
+    font-weight: bold;
+    color: rgb(65, 53, 0);
+    margin: 0.2rem;
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 0.6rem;
+    border-radius: 5%;
+}
+
+
+@media (max-width: 650px) {
+    html {
+      font-size: 50%;
+    }
+
+    body{
+        background-size: cover;
+        height: 100vh;
+      }
+
+    .utama .tombol a{
+        padding: 1rem;
+    }
+
+    .isi .salah {
+        margin: 8rem 10rem;
+        height: 60vh;
+    }
+
+    .isi .salah img {
+        height: 40vh;
+        width: 35vh;
+        border-radius: 10px;
+    }
+
+    .isi .salah h1{
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 5vh;
+        background-color: aliceblue;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .isi .kembali {
+        margin-top: -10rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .isi .kembali a,
+    .isi .nyerah a {
+        margin: 1rem;
+        background-color: aliceblue;
+        padding: 1rem;
+        text-decoration: none;
+        font-size: 2.6rem;
+        border-radius: 8px;
+    }
+
+
+  }
